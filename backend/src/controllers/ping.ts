@@ -7,3 +7,5 @@ pingController.get('/hello', (_, res) => {
     greetings: 'Thank you for spending some time on this test. All the best 🙌'
   });
 });
+
+

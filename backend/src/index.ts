@@ -1,8 +1,10 @@
 import app from './application';
 
-const port = process.env.PORT || 8000;
+//Load application configurations
+const appConfig = require('./config/app');
+const PORT = appConfig.PORT || 10000;
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   // tslint:disable-next-line:no-console
-  console.log(`Server started at http://localhost:${port}`);
+  console.log(`Server started at ${appConfig.URL}:${PORT}`);
 });
