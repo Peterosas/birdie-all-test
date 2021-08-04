@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Timeline from './Timeline';
 
-test('renders app component', () => {
-  render(<App />);
+test('renders timeline', () => {
+  render(<Timeline />);
   expect(true).toBe(true);
 });

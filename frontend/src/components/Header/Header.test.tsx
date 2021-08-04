@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Header from './Header';
 
-test('renders app component', () => {
-  render(<App />);
+test('renders header', () => {
+  render(<Header />);
   expect(true).toBe(true);
 });
